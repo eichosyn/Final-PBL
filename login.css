@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url(images/bg7.jpg);
+    background-size: 100%;
+}
+/*Header Section*/
+.navBar{
+    top: 0;
+    background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    width: 130px;
+    margin-left: 50px;
+}
+.navBar p{
+    color: #fff;
+}
+.navBar li{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.navBar ul li{
+    list-style-type: none;
+	display: inline-block;
+	margin: 0 40px;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navBar ul li a:hover{
+    padding: 11px 0;
+    border-bottom: 2px solid rgb(156, 156, 156);
+}
+.login{
+    background-color:#6b933e;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.login:hover{
+    box-shadow:#3b6b38 1px 12px 20px, #3b6b38 0px -12px 20px, #3b6b38 0px 4px 6px, #3b6b38 -15px -3px 20px, #3b6b38 15px -3px 20px;
+}
+.search{
+    display: flex;
+}
+.searchBar{
+    width: 200px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.searchBar:hover{
+    border-radius: 10px;
+}
+.searchIcon{
+    width: 40px;
+    height: 47px;
+    border:2px solid #fff;
+    background:#6b933e ;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+.searchIcon:hover{
+    border-radius: 10px;
+}
+.logo2{
+    width:210px
+}
+.infoGB{
+    font-size: 30px;
+}
+.info{
+    margin-bottom: 30px;
+}
+.container{
+    width: 100%;
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row ul{
+    list-style-type:none;
+}
+.footerSection{
+    background-color: black;
+    padding: 0 70px;
+    left: 0;
+    bottom: 0;
+    
+}
+.links-col h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.links-col p{
+    color: #fff;
+}
+.links-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.links-col2{
+    margin-top: 50px;
+}
+.links-col2a{
+    width: 10%;
+    margin-left: 30px;
+}
+.links-col2b{
+    margin-left:70px;
+    margin-right: 80px;
+}
+.links-col1{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.row ul li{
+    padding: 3px;
+}
+.row ul li a{
+   text-decoration: none;
+   color: rgb(121, 105, 105);
+}
+.row a:hover{
+    color: #6b933e;
+}
+.socialMedias a{
+    margin-left: 10px;
+    font-size: 23px;
+    padding: 15px;
+    border-radius: 10% 30% 50% 70%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6b933e;
+}
+.socialMedias a:hover{
+    color: rgb(121, 105, 105);
+}
+.copyNfollow{
+    padding: 10px;
+    margin-top: 20px;
+}
+.copyNfollow p{
+    margin-bottom: 10px;
+}
+.copyNfollow span{
+    color: #6b933e;
+}
+.Thanks{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/*Content*/
+.box{
+    width: 300px;
+    padding: 40px;
+    align-items: center;
+    background: #f2f2f2;
+    text-align: center;
+    border-radius: 20px;
+    margin: 100px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box h1{
+    color: rgb(9, 9, 9);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input{
+    font-size: 16px;
+}
+.box input[type ="text"],.box input[type = "password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(16, 16, 16);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type ="text"],.box input[type = "password"]
+{
+    width: 280px;
+    border-color: #2ecc71
+
+}
+.box button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(13, 13, 13);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box button:hover{
+    color: rgb(255, 255, 255);
+    background: #000000;
+
+}
+.signup{
+    text-decoration: none;
+}
